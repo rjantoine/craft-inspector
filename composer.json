@@ -1,0 +1,41 @@
+{
+    "name": "rjantoine/inspector",
+    "description": "amacneil/craft-inspector ported to Craft 3",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "inspector"
+    ],
+    "support": {
+        "docs": "https://github.com/rjantoine/inspector/blob/master/README.md",
+        "issues": "https://github.com/rjantoine/inspector/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Antoine",
+            "homepage": "https://musingmonkeys.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "rjantoine\\inspector\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Inspector",
+        "handle": "inspector",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/rjantoine/inspector/master/CHANGELOG.md",
+        "class": "rjantoine\\inspector\\Inspector"
+    }
+}
