@@ -1,5 +1,5 @@
 {
-    "name": "rjantoine/inspector",
+    "name": "rjantoine/craft-inspector",
     "description": "amacneil/craft-inspector ported to Craft 3",
     "type": "craft-plugin",
     "version": "1.0.0",
